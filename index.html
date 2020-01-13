@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+        integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="registerBox">
+        <h2>Please sign up</h2>
+        <form action="" name='form1'>
+            <div>
+                <label for="firstName">
+                    <input type="text" name='firstName' placeholder="First name" id="firstNameF1">
+                    <span></span>
+                </label>
+                <div id="commentFirstNameF1" class="commentF1">Please provide a valid First Name</div>
+            </div>
+
+            <div>
+                <label for="lastName">
+                    <input type="text" name='lastName' placeholder="Last name" id="lastNameF1">
+                    <span></span>
+                </label>
+                <div id="commentLastNameF1" class="commentF1">Please provide a valid Last Name</div>
+            </div>
+
+            <div>
+                <label for="email">
+                    <input type="email" name='email' placeholder="Email address" id="emailF1">
+                    <span></span>
+                </label>
+                <div id="commentEmailF1" class="commentF1">Please provide a valid Email address</div>
+            </div>
+
+            <div>
+                <label for="password">
+                    <input type="password" name='password' placeholder="Password" id="passwordF1">
+                    <span></span>
+                </label>
+                <div id="commentPasswordF1" class="commentF1">Please provide a valid Password</div>
+            </div>
+
+            <input type="button" name='signUp' class="btnSignUp" value="Sign Up">
+            <div id="workMessageSignIn">Sign in now</div>
+        </form>
+    </div>
+
+
+
+    <div class="loginBox">
+        <h2>Please sign in</h2>
+        <form action="" name=form2>
+       
+            <div>
+                <label for="email">
+                    <input type="email" name='email' placeholder="Email address" id="emailF2">
+                </label>
+            </div>
+
+            <div>
+                <label for="passworrd">
+                    <input type="password" name='password' placeholder="Password" id="passwordF2">
+                </label>
+                <div id="commentPasswordF2" class="commentF2">Incorrect email or password</div>
+            </div>
+
+            <input type="button" name='signIn' class="btnSignIn" value="Sign In">
+            <div id="workMessageSignUp">Sign up now</div>
+        </form>
+    </div>
+
+
+    
+    <div class="dataCard">
+        <img class='spriteSexImage' src="image/man-2_icon-icons.com_55041.svg" alt="" srcset="">
+        <div class="rezData">
+            <div class="rezFirstSecondname"></div>
+            <div class="rezEmail"></div>
+            <div class="rezPosition">Designer & Web Developing</div>
+        </div>
+        <input type="button" class='btnSignUpDataCard' value="Sign Up">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

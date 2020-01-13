@@ -1,0 +1,91 @@
+.registerBox,
+.loginBox {
+    width: 300px;
+    margin: 100px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    padding-left: 5px;
+    width: 100%;
+    min-height: 46px;
+    position: relative;
+    margin: 15px 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px inset black;
+    border-radius: 3px;
+}
+
+input[type="button"] {
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 20px 0 0 0;
+}
+
+.commentF1,
+.commentF2 {
+    position: absolute;
+    width: 230px;
+    height: 18px;
+    background-color: red;
+    margin: -20px;
+    margin-left: 5px;
+    font-size: 14px;
+    border: 1px solid red;
+    border-radius: 5px;
+
+}
+.commentF2{
+    top: 310px;
+}
+
+#workMessageSignUp,
+#workMessageSignIn {
+    color: blue;
+    width: 140px;
+    height: 10px;
+    cursor: pointer;
+}
+
+span {
+    display: none;
+    position: relative;
+    left: 276px;
+    top: -36px;
+}
+
+.spriteSexImage {
+    width: 130px;
+    height: 130px;
+}
+
+.rezData {
+    margin: 0 auto;
+    height: 63px;
+    align-items: center;
+    text-align: center;
+}
+
+.dataCard {
+    border: 1px solid black;
+    margin: 50px auto;
+    padding: 20px;
+    min-height: 270px;
+    width: 450px;
+    color: grey;
+    align-items: center;
+    text-align: center;
+}
+
+.btnSignIn,
+.btnSignUpDataCard {
+    background-color: green;
+}
+
+.btnSignUp {
+    background-color: cornflowerblue;
+}
